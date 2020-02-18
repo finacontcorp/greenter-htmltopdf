@@ -1,5 +1,5 @@
 {
-    "name": "greenter/htmltopdf",
+    "name": "greenterfin/htmltopdf",
     "description": "Greenter Html Report to Pdf using wkhtmltopdf",
     "keywords": ["greenter", "wkhtmltodf", "representacion-impresa", "facturacion electronica"],
     "license": "MIT",
@@ -7,13 +7,21 @@
         {
             "name": "Giancarlos Salas",
             "email": "giansalex@gmail.com"
+        },
+        {
+            "name": "Yerson Y. Campos De la cruz",
+            "email": "ycamposde@gmail.com"
+        },
+        {
+            "name": "Financontcorp",
+            "email": "appmanager@finacontcorp.com"
         }
     ],
-    "homepage": "https://github.com/giansalex/greenter-htmltopdf",
+    "homepage": "https://github.com/finacontcorp/greenter-htmltopdf",
     "type": "library",
     "require": {
 	    "php": ">=5.5.9",
-        "greenter/core": "^2.1",
+        "greenterfin/core": "^1.0.0",
         "mikehaertl/phpwkhtmltopdf": "^2.3"
     },
 	"require-dev": {
@@ -30,6 +38,6 @@
         }
     },
     "suggest": {
-        "greenter/report": "Html Reporter"
+        "greenterfin/report": "Html Reporter"
     }
 }
